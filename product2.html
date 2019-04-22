@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chunha</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="usph.css">
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top justify-content-between">
+        <a class="navbar-brand" href="#">Chunha</a>
+        <i class="fas fa-bars d-block d-lg-none mobile-menu" style="cursor: pointer;" onclick="openNav()"></i>
+        <ul class="navbar-nav d-none d-lg-flex">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="ushp.html">USHP</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="product2.html">교환교수/ 장기체류자보험</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <li>
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="nav-link" href="ushp.html">USHP</a>
+            </li>
+            <li>
+                <a class="nav-link" href="product2.html">교환교수/ 장기체류자보험</a>
+            </li>
+            <li>
+                <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+        </div>
+
+    </div>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container d-flex flex-column align-items-center justify-content-center"
+            style="height: 100%; text-shadow: 2px 2px #000">
+            <h1 style="font-size: 5rem;">USHP</h1>
+            <p class="lead">US Health Plan</p>
+        </div>
+    </div>
+
+    <section class="d-flex flex-column align-items-center justify-content-center" style="padding: 3rem;">
+        <div style="font-size: 30px; font-weight: 600; margin-bottom: 3rem;">메리츠화재의 USHP</div>
+        <div style="text-align: center;">메리츠화재는 국내 최초로 미국 연방규정(Affodable Care Act) 에 부합하는 미국 전문 유학생보험을 출시하였습니다. 해당 상품은
+            기존 국내 유학생보험에 없었던 임신/출산/알코올질환/정신질환 등을 추가 보장하고, 미국현지 보상센타(TPA : Third Party Adminstration)와 연계해 한국어 보상 서비스를
+            제공합니다.</div>
+    </section>
+
+    <section class="d-flex flex-column align-items-center justify-content-center bg-light" style="min-height: 50vh">
+        <div style="font-size: 30px; font-weight: 600; margin-bottom: 3rem;">차별화된 보상내용</div>
+        <div class="row">
+            <div class="col-sm-6">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">무제한 의료비와 입원비(질병과 상해)</li>
+                    <li class="list-group-item">정신병, 알콜/약물중독 입원포함</li>
+                    <li class="list-group-item">레크레이션, 스포츠 활동 담보</li>
+                    <li class="list-group-item">예방진료서비스/진단서비스</li>
+                    <li class="list-group-item">임신/출산 담보</li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">영문/국문 약관</li>
+                    <li class="list-group-item">​미국내 한국어 콜센타 운영</li>
+                    <li class="list-group-item">미국 이외의 제 3국 보험 지원</li>
+                    <li class="list-group-item">한국법에 따라서 인가죄 한국상품</li>
+                    <li class="list-group-item">​미국 대학교 조건 충족(Waiver 가능) & 저렴한 보험료</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="d-flex flex-column align-items-center justify-content-center" style="min-height: 50vh">
+        <div style="font-size: 30px; font-weight: 600; margin-bottom: 3rem;">자격 안내</div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-6">
+                    <div style="font-size: 18px; font-weight: 500;">피보험자 자격조건</div>
+                    <ul class="list-group list-group-flush justify-content-center">
+                        <li class="list-group-item">유효한 F1/J1 비자를 소지한 상태</li>
+                        <li class="list-group-item">한국의 원주지를 일시적으로 떠남(한국주소소지)</li>
+                        <li class="list-group-item">교육 또는 연구 활동에 참가하는 자(I - 20)</li>
+                        <li class="list-group-item">보험 시작일 기준 연령이 0세 - 24세</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <div style="font-size: 18px; font-weight: 500;">피보험자의 배우자 또는 자녀</div>
+                    <ul class="list-group list-group-flush justify-content-center">
+                        <li class="list-group-item">피보험자의 법적배우자 또는 사실혼 관계인 사람</li>
+                        <li class="list-group-item">미국 시민권자, 영주권자 혹은 영주권 신청자는 가입이 불가합니다</li>
+                        <li class="list-group-item">자녀 26세 이하</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="d-flex flex-column align-items-center justify-content-center bg-light"
+        style="min-height: 50vh; padding: 2rem 3rem;">
+        <div style="font-size: 30px; font-weight: 600; margin-bottom: 3rem;">What does my benefit coverage look like?
+        </div>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section style="min-height: 50vh; padding: 2rem;">
+        <div style="text-align: center; font-size: 30px; font-weight: 600; margin-bottom: 3rem;">Give me my estimate
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <form id="quote-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="Gender">Gender</label>
+                            <select class="custom-select" name="gender">
+                                <option selected>Select...</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="dob">DOB</label>
+                            <input class="form-control" type="date" name="dob" placeholder="DOB">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone #</label>
+                            <input class="form-control" type="tel" name="phone" placeholder="Phone #">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input class="form-control" type="email" name="email" placeholder="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="stay-date">Length of Stay</label>
+                            <select class="custom-select" name="stay-date">
+                                <option selected>Select...</option>
+                                <option value="1">1 month</option>
+                                <option value="3">3 month</option>
+                                <option value="6">6 month</option>
+                                <option value="9">9 month</option>
+                                <option value="12">12 month</option>
+                            </select>
+                        </div>
+                        <div class="form-group d-flex align-items-end">
+                            <button class="btn btn-outline-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-6 d-flex align-items-center justify-content-center">
+                    <div class="quote-answer" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <nav class="navbar" style="background: #333; color: #9b9b9b;">
+        <div class="row" style="width: 100%; padding: 1rem;">
+            <div class="col-12" style="margin-bottom: 2rem;">
+                <div style="color: #fff;">Customer Service Toll Free (800) 943-4555</div>
+            </div>
+            <div class="col-12" style="margin-bottom: 1rem;">
+                <div class="row">
+                    <div class="col-sm-3">
+
+                        <div style="color: #fff;">Garden Grove Headquarter</div>
+                        <div>9122 Garden Grove Blvd.</div>
+                        <div>Garden Grove, CA 92844</div>
+                        <div>Tel : 714-537-5000</div>
+                        <div>Fax : 714-537-0090</div>
+                        <div>E-mail: info@chunha.com</div>
+
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div style="color: #fff;">Los Angeles Branch Office</div>
+                        <div>3660 Wilshire Blvd., Suite 424</div>
+                        <div>Los Angeles, CA 90010</div>
+                        <div>Tel : 213-368-0001</div>
+                        <div>Fax : 213-368-0234</div>
+                        <div>losangeles@chunha.com</div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div style="color: #fff;">San Diego Branch Office</div>
+                        <div>7750 Dagget St., Suite 208</div>
+                        <div>San Diego, CA 92111</div>
+                        <div>Tel : 858-877-0843</div>
+                        <div>Fax : 714-530-4506</div>
+                        <div>E-mail: sandiego@chunha.com</div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div style="color: #fff;">Auburn Branch Office</div>
+                        <div>3320 Skyway Dr., Suite 714</div>
+                        <div>Opelika, AL 36801</div>
+                        <div>Tel : 334-759-6211</div>
+                        <div>Fax : 334-521-7540</div>
+                        <div>E-mail: auburn@chunha.com</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div style="margin-bottom: 1rem;">
+                    <div style="color: #fff;">Auto/Home Insurance</div>
+                    <div>Joe Im / (714)590-3515 / joe@chunha.com</div>
+                </div>
+
+                <div style="margin-bottom: 1rem;">
+                    <div style="color: #fff;">Business Insurance</div>
+                    <div>Kenny Yoon / (714)590-3511 / kenny@chunha.com</div>
+                </div>
+
+                <div style="margin-bottom: 1rem;">
+                    <div style="color: #fff;">Health Insurance</div>
+                    <div>John Park / (714)590-3521 / johnp@chunha.com</div>
+                </div>
+
+                <div style="margin-bottom: 1rem;">
+                    <div style="color: #fff;">Life Insurance</div>
+                    <div>Tae Hwan Jung / (714)590-3502 / tae@chunha.com</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <footer class="container-fluid align-items-center" style="padding: 2rem; background: #b81f16; color: #fff;">
+        <div class="row">
+            <div class="col-sm-6 d-flex justify-content-center">
+                Copyright © CHUN HA 2015. All rights reserved. Terms of Use | Privacy Policy .
+            </div>
+            <div class="col-sm-6 d-flex justify-content-center">
+                <div style="margin-right: 10px;">Social Media: </div>
+                <div style="margin-right: 10px;">
+                    <a style="color: #fff;" href="https://www.facebook.com/ChunhaInsurance" target="_blank">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </div>
+                <div>
+                    <a style="color: #fff;" href="https://www.youtube.com/channel/UC3w_ddvxhll6v-M0kbH2ZVw"
+                        target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="ushp.js"></script>
+</body>
+
+<script>
+    function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+    }
+
+    /* Close when someone clicks on the "x" symbol inside the overlay */
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+    }
+</script>
+
+</html>

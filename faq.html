@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chunha</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top justify-content-between">
+        <a class="navbar-brand" href="#">Chunha</a>
+        <i class="fas fa-bars d-block d-lg-none mobile-menu" style="cursor: pointer;" onclick="openNav()"></i>
+        <ul class="navbar-nav d-none d-lg-flex">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="ushp.html">USHP</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="product2.html">교환교수/ 장기체류자보험</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <li>
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="nav-link" href="ushp.html">USHP</a>
+            </li>
+            <li>
+                <a class="nav-link" href="product2.html">교환교수/ 장기체류자보험</a>
+            </li>
+            <li>
+                <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+        </div>
+
+    </div>
+
+    <div style="padding: 5rem 2rem; min-height: 82vh;">
+        <div class="accordion" id="accordionExample">
+            <div class="card" style="border: 0; border-bottom: 1px solid rgba(0,0,0,.125);">
+                <div id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            What does my coverage look like?
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                        anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
+                        of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="border: 0; border-bottom: 1px solid rgba(0,0,0,.125);">
+                <div id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            How does this product stand out from other similar products?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                        anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
+                        of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="border: 0; border-bottom: 1px solid rgba(0,0,0,.125);">
+                <div id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Who should I talk to if I have a question not answered here?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                        anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
+                        of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <nav class="navbar" style="background: #333; color: #9b9b9b;">
+        <div class="row" style="width: 100%; padding: 1rem;">
+            <div class="col-12" style="margin-bottom: 2rem;">
+                <div style="color: #fff;">Customer Service Toll Free (800) 943-4555</div>
+            </div>
+            <div class="col-12" style="margin-bottom: 1rem;">
+                <div class="row">
+                    <div class="col-sm-3">
+
+                        <div style="color: #fff;">Garden Grove Headquarter</div>
+                        <div>9122 Garden Grove Blvd.</div>
+                        <div>Garden Grove, CA 92844</div>
+                        <div>Tel : 714-537-5000</div>
+                        <div>Fax : 714-537-0090</div>
+                        <div>E-mail: info@chunha.com</div>
+
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div style="color: #fff;">Los Angeles Branch Office</div>
+                        <div>3660 Wilshire Blvd., Suite 424</div>
+                        <div>Los Angeles, CA 90010</div>
+                        <div>Tel : 213-368-0001</div>
+                        <div>Fax : 213-368-0234</div>
+                        <div>losangeles@chunha.com</div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div style="color: #fff;">San Diego Branch Office</div>
+                        <div>7750 Dagget St., Suite 208</div>
+                        <div>San Diego, CA 92111</div>
+                        <div>Tel : 858-877-0843</div>
+                        <div>Fax : 714-530-4506</div>
+                        <div>E-mail: sandiego@chunha.com</div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div style="color: #fff;">Auburn Branch Office</div>
+                        <div>3320 Skyway Dr., Suite 714</div>
+                        <div>Opelika, AL 36801</div>
+                        <div>Tel : 334-759-6211</div>
+                        <div>Fax : 334-521-7540</div>
+                        <div>E-mail: auburn@chunha.com</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div style="margin-bottom: 1rem;">
+                    <div style="color: #fff;">Auto/Home Insurance</div>
+                    <div>Joe Im / (714)590-3515 / joe@chunha.com</div>
+                </div>
+
+                <div style="margin-bottom: 1rem;">
+                    <div style="color: #fff;">Business Insurance</div>
+                    <div>Kenny Yoon / (714)590-3511 / kenny@chunha.com</div>
+                </div>
+
+                <div style="margin-bottom: 1rem;">
+                    <div style="color: #fff;">Health Insurance</div>
+                    <div>John Park / (714)590-3521 / johnp@chunha.com</div>
+                </div>
+
+                <div style="margin-bottom: 1rem;">
+                    <div style="color: #fff;">Life Insurance</div>
+                    <div>Tae Hwan Jung / (714)590-3502 / tae@chunha.com</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <footer class="container-fluid align-items-center" style="padding: 2rem; background: #b81f16; color: #fff;">
+        <div class="row">
+            <div class="col-sm-6 d-flex justify-content-center">
+                Copyright © CHUN HA 2015. All rights reserved. Terms of Use | Privacy Policy .
+            </div>
+            <div class="col-sm-6 d-flex justify-content-center">
+                <div style="margin-right: 10px;">Social Media: </div>
+                <div style="margin-right: 10px;">
+                    <a style="color: #fff;" href="https://www.facebook.com/ChunhaInsurance" target="_blank">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </div>
+                <div>
+                    <a style="color: #fff;" href="https://www.youtube.com/channel/UC3w_ddvxhll6v-M0kbH2ZVw"
+                        target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+<script>
+    function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+    }
+
+    /* Close when someone clicks on the "x" symbol inside the overlay */
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+    }
+</script>
+
+</html>

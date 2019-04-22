@@ -1,0 +1,19 @@
+.jumbotron {
+      /* The image used */
+  background-image: url("images/flag.jpg");
+
+  /* Full height */
+  height: 60vh; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #fff;
+}
+
+.list-group-item {
+    border: none;
+    background: transparent;
+}
