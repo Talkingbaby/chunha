@@ -16,19 +16,19 @@ $('#quote-form').on('submit', function (e) {
         console.log(lengthOfStay);
         switch(lengthOfStay) {
             case '1':
-                price = '$158.58';
+                price = '$158.58 / 1 개월';
                 break;
             case '3':
-                price = '$475.5';
+                price = '$475.5 / 3 개월';
                 break;
             case '6':
-                price = '$951';
+                price = '$951 / 6 개월';
                 break;
             case '9':
-                price = '$1426.5';
+                price = '$1426.5 / 9 개월';
                 break;
             case '12':
-                price = '$1902';
+                price = '$1902 / 12 개월';
                 break;
             default:
                 price = 'There appears to be an issue';
@@ -38,19 +38,19 @@ $('#quote-form').on('submit', function (e) {
         console.log('i am female');
         switch(lengthOfStay) {
             case '1':
-                price = '$158.16';
+                price = '$158.16 / 1 개월';
                 break;
             case '3':
-                price = '$474.5';
+                price = '$474.5 / 3 개월';
                 break;
             case '6':
-                price = '$949';
+                price = '$949 / 6 개월';
                 break;
             case '9':
-                price = '$1423.5';
+                price = '$1423.5 / 9 개월';
                 break;
             case '12':
-                price = '$1898';
+                price = '$1898 / 12 개월';
                 break;
             default:
                 price = 'There appears to be an issue';
